@@ -1,0 +1,24 @@
+<form [FormGroup]="formulario">
+  <label for="">Nombre:</label>
+  <input type="text" placeholder="Nombre">
+  <br>
+  <label for="">Apellido Paterno:</label>
+  <input type="text" placeholder="Apellido Paterno">
+  <br>
+  <label for="">apellido Materno:</label>
+  <input type="text" placeholder="Apellido Materno">
+  <br>
+  <h2>Fecha de nacimiento:</h2>
+  <br>
+  <input type="number" placeholder="dia">
+  <br>
+  <input type="number" placeholder="mes">
+  <br>
+  <input type="number" placeholder="año">
+  <h2>Genero</h2>
+  <br>
+  <input type="radio" name="masculino" id="masculino">Masculino
+  <input type="radio" name="" id="femenino">Femenino
+  <br>
+  <button (click)="imprimir()">Imprimir</button>
+</form>

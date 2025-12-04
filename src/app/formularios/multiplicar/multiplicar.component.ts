@@ -1,18 +1,11 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormControl, ReactiveFormsModule, FormsModule } from '@angular/forms';
-import { Multiplicar } from '../distancia/distancia';
 
 @Component({
   selector: 'app-multiplicar',
   imports: [FormsModule, ReactiveFormsModule],
   templateUrl: './multiplicar.component.html',
   styleUrl: './multiplicar.component.css'
-})
-@Component({
-  selector: 'app-distancia',
-  imports: [FormsModule, ReactiveFormsModule],
-  templateUrl:'.multiplicar.component.html',
-  styleUrl: '.multiplicar.component.css'
 })
 export class MultiplicarComponent {
   formulario!: FormGroup
